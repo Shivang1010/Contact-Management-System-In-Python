@@ -158,7 +158,7 @@ def OnSelected(event):
     btn_updatecon.grid(row=6, columnspan=2, pady=10)
 
 
-#fn1353p    
+    
 def DeleteData():
     if not tree.selection():
        result = tkMessageBox.showwarning('', 'Please Select Something First!', icon="warning")
